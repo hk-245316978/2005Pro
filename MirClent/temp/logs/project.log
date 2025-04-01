@@ -1,0 +1,519 @@
+2025-4-1 17:07:32 - log: Load engine in D:\ProgramData\cocos\editors\Creator\3.8.5\resources\resources\3d\engine
+2025-4-1 17:07:32 - log: Register native engine in D:\ProgramData\cocos\editors\Creator\3.8.5\resources\resources\3d\engine\native
+2025-4-1 17:07:33 - log: Request namespace: device-list
+2025-4-1 17:07:59 - error: get session failed
+2025-4-1 17:07:59 - error: {
+  err: Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20) {
+    errno: -4077,
+    code: 'ECONNRESET',
+    syscall: 'read'
+  }
+}
+2025-4-1 17:08:12 - log: [Scene] meshopt wasm decoder initialized
+2025-4-1 17:08:12 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2025-4-1 17:08:12 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2025-4-1 17:08:12 - log: [Scene] [PHYSICS]: using builtin.
+2025-4-1 17:08:12 - log: [Scene] Cocos Creator v3.8.5
+2025-4-1 17:08:12 - log: [Scene] Using custom pipeline: Builtin
+2025-4-1 17:08:12 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+2025-4-1 17:08:12 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2025-4-1 17:22:07 - error: [Window] Can not change the asset "db://assets/resources/map/00001.tmx", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/map/00001.tmx", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:07 - error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00040.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00040.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:07 - error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00060.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00060.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:07 - error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-000400.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-000400.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:07 - error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-000440.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-000440.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:08 - error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00100.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00100.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:08 - error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00080.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00080.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:08 - error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00120.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00120.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:08 - error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00160.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00160.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:08 - error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00280.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00280.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:08 - error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00360.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/ChrSel/ChrSel-00360.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:09 - error: [Window] Can not change the asset "db://assets/resources/uipanel/Prguse/Prguse-0.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/uipanel/Prguse/Prguse-0.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:09 - error: [Window] Can not change the asset "db://assets/resources/uipanel/Prguse/Prguse-1.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/uipanel/Prguse/Prguse-1.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:10 - error: [Window] Can not change the asset "db://assets/resources/uipanel/Prguse/Prguse-2.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/uipanel/Prguse/Prguse-2.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:11 - error: [Window] Can not change the asset "db://assets/resources/map/tiles1_0.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/map/tiles1_0.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:12 - error: [Window] Can not change the asset "db://assets/resources/uipanel/Prguse/Prguse-3.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/uipanel/Prguse/Prguse-3.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:22:14 - error: [Window] Can not change the asset "db://assets/resources/anima/humen/hum00000.plist", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima/humen/hum00000.plist", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\anima.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\anima.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\loginpanel.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\loginpanel.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\map.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\map.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\anima\ChrSel.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\anima\ChrSel.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\anima\humen.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\anima\humen.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\map\00001.tmx.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\map\00001.tmx.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\map\00001.tsx.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\map\00001.tsx.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\map\tiles1_0.plist.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\map\tiles1_0.plist.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\map\tiles1_0.png.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\map\tiles1_0.png.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-0.plist.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-0.plist.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-0.png.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-0.png.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-1.plist.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-1.plist.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-1.png.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-1.png.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-2.plist.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-2.plist.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-2.png.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-2.png.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-3.plist.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-3.plist.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-3.png.meta is not exist! will use cache meta.Error: [Assets] D:\Users\cocos\MirClent\assets\resources\uipanel\Prguse\Prguse-3.png.meta is not exist! will use cache meta.
+    at console.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.error (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)
+    at AssetDB._checkAssetStat (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:12237)
+    at AssetDB.refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\asset-db\libs\asset-db.ccc:1:8534)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at processImmediate (node:internal/timers:449:9)
+    at AssetDBManager._refresh (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\asset-db-manager.ccc:1:10064)
+    at Object.refresh-all-database (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\messages\database.ccc:1:3760)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:23:24 - error: [Window] Can not change the asset "db://assets/resources/anima", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/anima", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:23:24 - error: [Window] Can not change the asset "db://assets/resources/uipanel", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/uipanel", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:23:24 - error: [Window] Can not change the asset "db://assets/resources/map", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/map", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:23:24 - error: [Window] Can not change the asset "db://assets/resources/uipanel/Prguse", because the original asset is not exist. Maybe it is a new asset.Error: [Window] Can not change the asset "db://assets/resources/uipanel/Prguse", because the original asset is not exist. Maybe it is a new asset.
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-data.ccc:1:3993)
+    at VueComponent.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree.ccc:1:6691)
+    at Object.changed (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\modules\editor-extensions\extensions\assets\dist\panel.ccc:1:9109)
+    at D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-4-1 17:28:12 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:12 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@27e55Warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@27e55
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:13 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:13 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@bbb7aWarn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@bbb7a
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:13 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:13 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@c60c6Warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@c60c6
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:13 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:13 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@92bebWarn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@92beb
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:14 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:14 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@027b8Warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@027b8
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:14 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:14 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@9067bWarn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@9067b
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:15 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:15 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@0f25aWarn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@0f25a
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:15 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:15 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@0f25aWarn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@0f25a
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:21 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:21 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@22f3aWarn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@22f3a
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:21 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:21 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@03855Warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@03855
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:21 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:21 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@03855Warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@03855
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:25 - warn: [Assets] pngload: end of streamError: pngload: end of stream
+2025-4-1 17:28:25 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@fd280Warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@fd280
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
+2025-4-1 17:28:29 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-1 17:28:29 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@6c1b7Warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-0.plist@6c1b7
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10412)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)
