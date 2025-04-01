@@ -91,6 +91,97 @@
     "D:\\Users\\cocos\\MirClent\\assets\\script\\MoveSprite.ts": {
       "time": 1743501507719.2288,
       "uuid": "94d35054-3107-4b6d-866f-842c155eeb7d"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources": {
+      "time": 1743517372730.2607,
+      "uuid": "189441c0-7496-4ae0-9a68-89554f02a26b"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\script": {
+      "time": 1743517372780.4377,
+      "uuid": "d11b796d-23c7-4c88-be24-cf36da4cb38b"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel": {
+      "time": 1743517372734.268,
+      "uuid": "d46623e0-56e4-49aa-adc7-fe3190c0799e"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse": {
+      "time": 1743517372772.5056,
+      "uuid": "a745d297-6d43-47dc-87dc-98d242bd73e5"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\script\\MoveSprite.ts": {
+      "time": 1743518271845.343,
+      "uuid": "94d35054-3107-4b6d-866f-842c155eeb7d"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources.meta": {
+      "time": 1743499489638.291
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\script.meta": {
+      "time": 1743499630926.3767
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel.meta": {
+      "time": 1743499533289.1555
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse.meta": {
+      "time": 1743499564501.5303
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\script\\MoveSprite.ts.meta": {
+      "time": 1743499663691.0347
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.plist": {
+      "time": 1741704536829.288,
+      "uuid": "09fe99dc-dd40-4bd4-b498-7b3594c2fe47"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.png": {
+      "time": 1741704533449.335,
+      "uuid": "7f1e7e82-6b1a-4454-b11a-95bcdd22bcf1"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.plist": {
+      "time": 1741704536833.04,
+      "uuid": "9ce2eb39-15ab-48e0-9fb0-ae747e84b2ec"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.png": {
+      "time": 1741704534299.4175,
+      "uuid": "1dab38f2-a99b-4db3-8e8d-a4e84d111266"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.plist": {
+      "time": 1741704536841.1404,
+      "uuid": "2ebc1096-19da-4396-b734-b02b67b36ca9"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.png": {
+      "time": 1741704535040.3816,
+      "uuid": "79769020-d549-456d-bc32-01977eaac0e5"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.plist": {
+      "time": 1741704536851.5085,
+      "uuid": "ccbad9d3-ddf6-4aeb-afbf-1cd2640e7acc"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.png": {
+      "time": 1741704536824.5254,
+      "uuid": "bfc7360f-e80f-4622-abc9-b35636791dea"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.png.meta": {
+      "time": 1743499593092.6497
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.png.meta": {
+      "time": 1743499592857.715
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.png.meta": {
+      "time": 1743499593792.2002
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.png.meta": {
+      "time": 1743499593670.3708
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.plist.meta": {
+      "time": 1743499593243.38
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.plist.meta": {
+      "time": 1743499593333.9092
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.plist.meta": {
+      "time": 1743499593954.4092
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.plist.meta": {
+      "time": 1743499594999.4207
     }
   },
   "missing": {

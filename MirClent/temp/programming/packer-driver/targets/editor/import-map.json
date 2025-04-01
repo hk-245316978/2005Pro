@@ -8,10 +8,10 @@
     "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "./chunks/05/054801b00a8e70630ae01b0fda678c6676f17a2a.js",
     "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "./chunks/17/17b4def6f342ddb84637ba1c816ba421d558bf11.js",
     "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/aa/aa154372f68ade5e5ac26b0cdce835126dd24d14.js",
-    "file:///D:/Users/cocos/MirClent/assets/script/MoveSprite.ts": "./chunks/de/de54be5f81d689178849f24863f08057ae5fa059.js"
+    "file:///D:/Users/gitPro/MirClent/assets/script/MoveSprite.ts": "./chunks/cb/cb0507a7b10727e5e86b0b7bbecacbe54235d7fe.js"
   },
   "scopes": {
-    "./chunks/de/de54be5f81d689178849f24863f08057ae5fa059.js": {
+    "./chunks/cb/cb0507a7b10727e5e86b0b7bbecacbe54235d7fe.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
@@ -85,7 +85,7 @@
       "__unresolved_3": "./chunks/05/054801b00a8e70630ae01b0fda678c6676f17a2a.js",
       "__unresolved_4": "./chunks/17/17b4def6f342ddb84637ba1c816ba421d558bf11.js",
       "__unresolved_5": "./chunks/aa/aa154372f68ade5e5ac26b0cdce835126dd24d14.js",
-      "__unresolved_6": "./chunks/de/de54be5f81d689178849f24863f08057ae5fa059.js"
+      "__unresolved_6": "./chunks/cb/cb0507a7b10727e5e86b0b7bbecacbe54235d7fe.js"
     }
   }
 }
