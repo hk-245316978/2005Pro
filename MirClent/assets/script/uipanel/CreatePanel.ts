@@ -66,6 +66,9 @@ export class CreatePanel extends Component {
         return mySpriteNode;
     }
 
+    createContent(){
+        
+    }
 
 }
 
