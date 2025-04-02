@@ -1,13 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Input, Component, Node, PolygonCollider2D, Intersection2D, UITransform, v3, v2, _dec, _dec2, _class2, _class3, _descriptor, _crd, ccclass, property, eventTarget, _class;
-
-  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
-
-  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
-
-  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Input, Component, Node, PolygonCollider2D, Intersection2D, UITransform, v3, v2, _dec, _class2, _crd, ccclass, property, eventTarget, _class;
 
   return {
     setters: [function (_cc) {
@@ -37,7 +31,7 @@ System.register(["cc"], function (_export, _context) {
       } = _decorator);
       eventTarget = new EventTarget();
 
-      _export("default", _class = (_dec = ccclass('MoveSprite'), _dec2 = property(Node), _dec(_class2 = (_class3 = class _class3 extends Component {
+      _export("default", _class = (_dec = ccclass('MoveSprite'), _dec(_class2 = class _class2 extends Component {
         constructor(...args) {
           super(...args);
           // 状态
@@ -45,36 +39,23 @@ System.register(["cc"], function (_export, _context) {
           this.isMoving = true;
           this.startPoint = void 0;
           this.mousePoint = void 0;
-
-          _initializerDefineProperty(this, "backpack", _descriptor, this);
         }
 
-        start() {// this.node.on(Node.EventType.MOUSE_UP, this.event_mouse_up, this);
-          // this.node.on(Node.EventType.MOUSE_LEAVE, this.event_mouse_up, this);
-        }
+        start() {}
 
         onLoad() {
-          this.node.on(Input.EventType.MOUSE_DOWN, this.event_mouse_down, this); // this.node.on(Node.EventType.MOUSE_MOVE, this.event_mouse_move, this);
-          // this.node.on(Node.EventType.MOUSE_UP, this.event_mouse_up, this);
-          // 父节点监听移动，防止移动过快断触
-
-          this.backpack.on(Input.EventType.MOUSE_MOVE, this.event_mouse_move, this);
-          this.backpack.on(Input.EventType.MOUSE_UP, this.event_mouse_up, this);
-          this.backpack.on(Input.EventType.MOUSE_LEAVE, this.event_mouse_up, this); // 窗口外监听鼠标弹起，防止弹起后进入窗口跟随鼠标移动
-          // input.on(Input.EventType.MOUSE_UP, this.event_mouse_up, this);
+          this.node.on(Input.EventType.TOUCH_START, this.event_mouse_down, this);
+          this.node.on(Input.EventType.TOUCH_MOVE, this.event_mouse_move, this);
+          this.node.on(Input.EventType.TOUCH_END, this.event_mouse_up, this);
         }
 
         onDestroy() {
-          this.node.off(Input.EventType.MOUSE_DOWN, this.event_mouse_down, this); // this.node.off(Node.EventType.MOUSE_MOVE, this.event_mouse_move, this);
-          // this.node.off(Input.EventType.MOUSE_UP, this.event_mouse_up, this);
-
-          this.backpack.off(Input.EventType.MOUSE_MOVE, this.event_mouse_move, this);
-          this.backpack.off(Node.EventType.MOUSE_UP, this.event_mouse_up, this);
-          this.backpack.off(Input.EventType.MOUSE_LEAVE, this.event_mouse_up, this); // input.off(Input.EventType.MOUSE_UP, this.event_mouse_up, this);
+          this.node.off(Input.EventType.TOUCH_START, this.event_mouse_down, this);
+          this.node.off(Input.EventType.TOUCH_MOVE, this.event_mouse_move, this);
+          this.node.off(Node.EventType.TOUCH_END, this.event_mouse_up, this);
         }
 
         event_mouse_down(event) {
-          this.backpack.active = true;
           this.startPoint = this.node.getPosition();
           this.mousePoint = event.getUILocation(); // 获取碰撞组件
 
@@ -115,7 +96,6 @@ System.register(["cc"], function (_export, _context) {
         }
 
         event_mouse_up() {
-          this.backpack.active = false;
           this.isActive = false;
         }
 
@@ -129,14 +109,7 @@ System.register(["cc"], function (_export, _context) {
           }
         }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class3.prototype, "backpack", [_dec2], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
-        }
-      })), _class3)) || _class2));
+      }) || _class2));
 
       _cclegacy._RF.pop();
 

@@ -45,5 +45,56 @@
         }
       }
     }
+  },
+  "camera-infos": {
+    "27b01dab-863f-4a20-b191-901443c1fad9": {
+      "position": {
+        "x": 543.8662442006062,
+        "y": 494.69566028759664,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": -1175.8992929949563,
+        "y": -585.0807934096172,
+        "width": 1048,
+        "height": 658
+      },
+      "scale": 0.30469269715364317
+    }
+  },
+  "camera-uuids": [
+    "27b01dab-863f-4a20-b191-901443c1fad9"
+  ],
+  "camera": {
+    "color": [
+      48,
+      48,
+      48,
+      255
+    ],
+    "fov": 45,
+    "far": 10000,
+    "near": 0.01,
+    "wheelSpeed": 0.01,
+    "wanderSpeed": 10,
+    "enableAcceleration": true,
+    "size": "__default_design__",
+    "far2D": 10000,
+    "near2D": 1,
+    "wheelSpeed2D": 6,
+    "iso": 0,
+    "aperture": 19,
+    "shutter": 7
   }
 }

@@ -12,39 +12,23 @@ export default class  extends Component {
     startPoint;
     mousePoint;
 
-    @property(Node)
-    backpack: Node | null = null;
-
     start() {
-        // this.node.on(Node.EventType.MOUSE_UP, this.event_mouse_up, this);
-        // this.node.on(Node.EventType.MOUSE_LEAVE, this.event_mouse_up, this);
+
     }
 
     onLoad () {
-        this.node.on(Input.EventType.MOUSE_DOWN, this.event_mouse_down, this);
-        // this.node.on(Node.EventType.MOUSE_MOVE, this.event_mouse_move, this);
-        // this.node.on(Node.EventType.MOUSE_UP, this.event_mouse_up, this);
-        // 父节点监听移动，防止移动过快断触
-        this.backpack.on(Input.EventType.MOUSE_MOVE, this.event_mouse_move, this);
-        this.backpack.on(Input.EventType.MOUSE_UP, this.event_mouse_up, this);
-        this.backpack.on(Input.EventType.MOUSE_LEAVE, this.event_mouse_up, this);
-        // 窗口外监听鼠标弹起，防止弹起后进入窗口跟随鼠标移动
-        // input.on(Input.EventType.MOUSE_UP, this.event_mouse_up, this);
+        this.node.on(Input.EventType.TOUCH_START, this.event_mouse_down, this);
+        this.node.on(Input.EventType.TOUCH_MOVE, this.event_mouse_move, this);
+        this.node.on(Input.EventType.TOUCH_END, this.event_mouse_up, this);
     }
 
     onDestroy () {
-        this.node.off(Input.EventType.MOUSE_DOWN, this.event_mouse_down, this);
-        // this.node.off(Node.EventType.MOUSE_MOVE, this.event_mouse_move, this);
-        // this.node.off(Input.EventType.MOUSE_UP, this.event_mouse_up, this);
-        this.backpack.off(Input.EventType.MOUSE_MOVE, this.event_mouse_move, this);
-        this.backpack.off(Node.EventType.MOUSE_UP, this.event_mouse_up, this);
-        this.backpack.off(Input.EventType.MOUSE_LEAVE, this.event_mouse_up, this);
-        // input.off(Input.EventType.MOUSE_UP, this.event_mouse_up, this);
+        this.node.off(Input.EventType.TOUCH_START, this.event_mouse_down, this);
+        this.node.off(Input.EventType.TOUCH_MOVE, this.event_mouse_move, this);
+        this.node.off(Node.EventType.TOUCH_END, this.event_mouse_up, this);
     }
 
     event_mouse_down(event){
-        this.backpack.active = true;
-        
         this.startPoint = this.node.getPosition();
         this.mousePoint = event.getUILocation();
         // 获取碰撞组件
@@ -84,7 +68,6 @@ export default class  extends Component {
     }
 
     event_mouse_up(){
-        this.backpack.active = false;
         this.isActive = false;
     }
 

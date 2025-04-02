@@ -109,7 +109,7 @@
       "uuid": "a745d297-6d43-47dc-87dc-98d242bd73e5"
     },
     "D:\\Users\\gitPro\\MirClent\\assets\\script\\MoveSprite.ts": {
-      "time": 1743518271845.343,
+      "time": 1743520353376.8904,
       "uuid": "94d35054-3107-4b6d-866f-842c155eeb7d"
     },
     "D:\\Users\\gitPro\\MirClent\\assets\\resources.meta": {
@@ -182,6 +182,13 @@
     },
     "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.plist.meta": {
       "time": 1743499594999.4207
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\scene.scene": {
+      "time": 1743520520163.0576,
+      "uuid": "1ac8d75b-f588-4837-b7f4-7291ccbcc84f"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\scene.scene.meta": {
+      "time": 1743520520165.2903
     }
   },
   "missing": {
