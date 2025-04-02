@@ -1,461 +1,111 @@
 {
   "version": "1.0.0",
   "map": {
-    "D:\\Users\\cocos\\MirClent\\assets\\resources.meta": {
-      "time": 1743499489638.291
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources": {
-      "time": 1743499533277.4897,
-      "uuid": "189441c0-7496-4ae0-9a68-89554f02a26b"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel.meta": {
-      "time": 1743499533289.1555
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel": {
-      "time": 1743499564492.5227,
-      "uuid": "d46623e0-56e4-49aa-adc7-fe3190c0799e"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse.meta": {
-      "time": 1743499564501.5303
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse": {
-      "time": 1743499591708.9575,
-      "uuid": "a745d297-6d43-47dc-87dc-98d242bd73e5"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.plist.meta": {
-      "time": 1743499593243.38
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.png.meta": {
-      "time": 1743499592857.715
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.plist.meta": {
-      "time": 1743499593333.9092
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.png.meta": {
-      "time": 1743499593092.6497
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.plist.meta": {
-      "time": 1743499593954.4092
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.png.meta": {
-      "time": 1743499593792.2002
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.plist.meta": {
-      "time": 1743499594999.4207
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.png.meta": {
-      "time": 1743499593670.3708
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.png": {
-      "time": 1741704533449.335,
-      "uuid": "7f1e7e82-6b1a-4454-b11a-95bcdd22bcf1"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.png": {
-      "time": 1741704534299.4175,
-      "uuid": "1dab38f2-a99b-4db3-8e8d-a4e84d111266"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.plist": {
-      "time": 1741704536829.288,
-      "uuid": "09fe99dc-dd40-4bd4-b498-7b3594c2fe47"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.plist": {
-      "time": 1741704536833.04,
-      "uuid": "9ce2eb39-15ab-48e0-9fb0-ae747e84b2ec"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.png": {
-      "time": 1741704536824.5254,
-      "uuid": "bfc7360f-e80f-4622-abc9-b35636791dea"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.png": {
-      "time": 1741704535040.3816,
-      "uuid": "79769020-d549-456d-bc32-01977eaac0e5"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.plist": {
-      "time": 1741704536841.1404,
-      "uuid": "2ebc1096-19da-4396-b734-b02b67b36ca9"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.plist": {
-      "time": 1741704536851.5085,
-      "uuid": "ccbad9d3-ddf6-4aeb-afbf-1cd2640e7acc"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\script.meta": {
-      "time": 1743499630926.3767
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\script": {
-      "time": 1743499663680.9287,
-      "uuid": "d11b796d-23c7-4c88-be24-cf36da4cb38b"
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\script\\MoveSprite.ts.meta": {
-      "time": 1743499663691.0347
-    },
-    "D:\\Users\\cocos\\MirClent\\assets\\script\\MoveSprite.ts": {
-      "time": 1743501507719.2288,
-      "uuid": "94d35054-3107-4b6d-866f-842c155eeb7d"
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources": {
-      "time": 1743517372730.2607,
-      "uuid": "189441c0-7496-4ae0-9a68-89554f02a26b"
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\script": {
-      "time": 1743517372780.4377,
-      "uuid": "d11b796d-23c7-4c88-be24-cf36da4cb38b"
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel": {
-      "time": 1743517372734.268,
-      "uuid": "d46623e0-56e4-49aa-adc7-fe3190c0799e"
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse": {
-      "time": 1743517372772.5056,
-      "uuid": "a745d297-6d43-47dc-87dc-98d242bd73e5"
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\script\\MoveSprite.ts": {
-      "time": 1743520353376.8904,
-      "uuid": "94d35054-3107-4b6d-866f-842c155eeb7d"
-    },
     "D:\\Users\\gitPro\\MirClent\\assets\\resources.meta": {
-      "time": 1743499489638.291
+      "time": 1743564895946.1826
     },
     "D:\\Users\\gitPro\\MirClent\\assets\\script.meta": {
-      "time": 1743499630926.3767
+      "time": 1743564895948.1833
     },
     "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel.meta": {
-      "time": 1743499533289.1555
+      "time": 1743564895948.691
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\script\\uipanel.meta": {
+      "time": 1743564895949.7039
     },
     "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse.meta": {
-      "time": 1743499564501.5303
+      "time": 1743564895949.7039
     },
-    "D:\\Users\\gitPro\\MirClent\\assets\\script\\MoveSprite.ts.meta": {
-      "time": 1743499663691.0347
+    "D:\\Users\\gitPro\\MirClent\\assets\\script\\uipanel\\CreatePanel.ts.meta": {
+      "time": 1743564895954.6995
     },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.plist": {
-      "time": 1741704536829.288,
-      "uuid": "09fe99dc-dd40-4bd4-b498-7b3594c2fe47"
+    "D:\\Users\\gitPro\\MirClent\\assets\\script\\uipanel\\MoveSprite.ts.meta": {
+      "time": 1743564895955.6987
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources": {
+      "time": 1743564895937.0315,
+      "uuid": "cc8a2705-dba9-4f6f-b3a9-5e6e71c6a5af"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\script": {
+      "time": 1743564895938.043,
+      "uuid": "3fb0a796-03a7-4719-8502-c3c46e21164f"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel": {
+      "time": 1743564895938.043,
+      "uuid": "e6605792-e497-40ad-9665-c6345dd5717b"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\script\\uipanel": {
+      "time": 1743564895939.181,
+      "uuid": "608e308f-0379-46db-b8a5-168653f0b102"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse": {
+      "time": 1743564895964.6995,
+      "uuid": "0cd03980-27b3-4d4b-939f-db9f57004a36"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\script\\uipanel\\CreatePanel.ts": {
+      "time": 1743566772360.223,
+      "uuid": "1b048657-4ac2-4878-8248-a0afc226117c"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\script\\uipanel\\MoveSprite.ts": {
+      "time": 1743562906220.1816,
+      "uuid": "0779a822-f44c-4563-ae30-1a5cad1d532c"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.plist.meta": {
+      "time": 1743564897613.8208
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.png.meta": {
+      "time": 1743564897069.6963
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.plist.meta": {
+      "time": 1743564897713.5159
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.png.meta": {
+      "time": 1743564897345.224
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.plist.meta": {
+      "time": 1743564898337.5403
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.png.meta": {
+      "time": 1743564897951.9653
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.plist.meta": {
+      "time": 1743564899330.868
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.png.meta": {
+      "time": 1743564897985.9612
     },
     "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.png": {
       "time": 1741704533449.335,
-      "uuid": "7f1e7e82-6b1a-4454-b11a-95bcdd22bcf1"
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.plist": {
-      "time": 1741704536833.04,
-      "uuid": "9ce2eb39-15ab-48e0-9fb0-ae747e84b2ec"
+      "uuid": "a38c99de-38aa-4795-8e6f-4359415a52c9"
     },
     "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.png": {
       "time": 1741704534299.4175,
-      "uuid": "1dab38f2-a99b-4db3-8e8d-a4e84d111266"
+      "uuid": "037e7b1f-f85c-429d-a200-928ff1573e40"
     },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.plist": {
-      "time": 1741704536841.1404,
-      "uuid": "2ebc1096-19da-4396-b734-b02b67b36ca9"
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.plist": {
+      "time": 1741704536829.288,
+      "uuid": "441cc76d-25fb-4277-8543-dbd53e079227"
+    },
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.plist": {
+      "time": 1741704536833.04,
+      "uuid": "4cfaaa29-39a6-45a6-bc5d-63778161fa8b"
     },
     "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.png": {
       "time": 1741704535040.3816,
-      "uuid": "79769020-d549-456d-bc32-01977eaac0e5"
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.plist": {
-      "time": 1741704536851.5085,
-      "uuid": "ccbad9d3-ddf6-4aeb-afbf-1cd2640e7acc"
+      "uuid": "a5251f51-0c41-4198-a1bb-f10be54d5e3c"
     },
     "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.png": {
       "time": 1741704536824.5254,
-      "uuid": "bfc7360f-e80f-4622-abc9-b35636791dea"
+      "uuid": "8e88d6eb-aefb-4595-a51a-4a6b81f0aa0d"
     },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.png.meta": {
-      "time": 1743499593092.6497
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.plist": {
+      "time": 1741704536841.1404,
+      "uuid": "e0749986-8e8f-4309-8e21-366b27365190"
     },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.png.meta": {
-      "time": 1743499592857.715
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.png.meta": {
-      "time": 1743499593792.2002
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.png.meta": {
-      "time": 1743499593670.3708
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.plist.meta": {
-      "time": 1743499593243.38
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.plist.meta": {
-      "time": 1743499593333.9092
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.plist.meta": {
-      "time": 1743499593954.4092
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.plist.meta": {
-      "time": 1743499594999.4207
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\scene.scene": {
-      "time": 1743520520163.0576,
-      "uuid": "1ac8d75b-f588-4837-b7f4-7291ccbcc84f"
-    },
-    "D:\\Users\\gitPro\\MirClent\\assets\\scene.scene.meta": {
-      "time": 1743520520165.2903
+    "D:\\Users\\gitPro\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.plist": {
+      "time": 1741704536851.5085,
+      "uuid": "54c813f3-83bc-457f-8cf7-8ff49969138e"
     }
   },
-  "missing": {
-    "c57901d4-e8f8-4369-b849-05d7858fb0b7": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources",
-      "time": 1743499404106.5366,
-      "removeTime": 1743499454733
-    },
-    "dd17ea0d-97b3-4e63-977b-1365677b6692": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima",
-      "time": 1743499404109.537,
-      "removeTime": 1743499454733
-    },
-    "e33f23e1-b1a4-44c9-8464-6e91a55c82f7": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\loginpanel",
-      "time": 1743499313473.7195,
-      "removeTime": 1743499454733
-    },
-    "a69d4423-f132-49e5-b6e9-f28962538720": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\map",
-      "time": 1743499404128.5364,
-      "removeTime": 1743499454733
-    },
-    "ac05b0da-ec0e-4400-b168-9b7234e34b3a": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel",
-      "time": 1743499404129.5361,
-      "removeTime": 1743499454733
-    },
-    "bdf48a50-6cf3-407c-a6e5-98171f92c261": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel",
-      "time": 1743499313429.5227,
-      "removeTime": 1743499454733
-    },
-    "c00fdf13-2b67-4a28-b074-44297efbcf5f": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\humen",
-      "time": 1743499313451.2395,
-      "removeTime": 1743499454733
-    },
-    "69ed195f-2b9f-445a-97ae-facdfeddebd8": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse",
-      "time": 1743499404164.5469,
-      "removeTime": 1743499454733
-    },
-    "614378b0-86cc-46af-b9c5-0fefee67ef4b": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\loginpanel\\loginBackground.png",
-      "time": 1741967999614.7866,
-      "removeTime": 1743499454733
-    },
-    "6023a769-5d0a-4ef1-86f3-f498cf53626f": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\loginpanel\\RUNOOB-SVG-IMAGE.png",
-      "time": 1742060901186.9248,
-      "removeTime": 1743499454733
-    },
-    "55a8b563-1d1e-4825-84f9-3338947771f5": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\map\\00001.tmx",
-      "time": 1742370641334.4717,
-      "removeTime": 1743499454733
-    },
-    "63877037-6fef-4946-9301-68172fb7d1f6": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\map\\00001.tsx",
-      "time": 1742370586356.951,
-      "removeTime": 1743499454734
-    },
-    "5dd63cb6-597c-4087-917e-60789e8a7b2a": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\map\\tiles1_0.plist",
-      "time": 1702354667578.2158,
-      "removeTime": 1743499454734
-    },
-    "7a22d8bc-77b8-4bc5-b5da-7ce949eb0e11": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\map\\tiles1_0.png",
-      "time": 1702354667494.1118,
-      "removeTime": 1743499454734
-    },
-    "f8c1cf0e-0c8f-4883-a741-7b772c305019": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00040.plist",
-      "time": 1741980679325.9226,
-      "removeTime": 1743499454734
-    },
-    "d8fa89f0-7166-4e09-bd19-f0d2e23e56f9": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00040.png",
-      "time": 1741980679325.9226,
-      "removeTime": 1743499454734
-    },
-    "b4a5a6c0-c550-4d8e-81b3-ad1fb28c0b92": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-000400.plist",
-      "time": 1741981932904.1172,
-      "removeTime": 1743499454734
-    },
-    "78c6f2da-27ed-4405-8380-56be5d25d3d0": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-000400.png",
-      "time": 1741981932900.1165,
-      "removeTime": 1743499454734
-    },
-    "feabf6f8-0820-45c1-83f4-de77f1d7a107": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-000440.plist",
-      "time": 1741981987320.514,
-      "removeTime": 1743499454734
-    },
-    "4df8e867-f9ee-411c-a8f7-a2169bc5772b": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-000440.png",
-      "time": 1741981987317.208,
-      "removeTime": 1743499454734
-    },
-    "3bee9fa7-8394-44dc-9ab1-89729b7f0547": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00060.plist",
-      "time": 1741981368966.1968,
-      "removeTime": 1743499454734
-    },
-    "b968b33c-f2d8-44ce-9084-e5f6fafa6f62": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00060.png",
-      "time": 1741981368964.1948,
-      "removeTime": 1743499454734
-    },
-    "e1434659-5d4b-482d-b6e9-dc0994a1454c": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00080.plist",
-      "time": 1741981036259.5908,
-      "removeTime": 1743499454734
-    },
-    "549966cd-c230-4f43-bb2d-fe6e262f98f9": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00080.png",
-      "time": 1741981036257.5884,
-      "removeTime": 1743499454734
-    },
-    "55978da8-b78a-47f5-b1bb-a8c43c2e0999": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00100.plist",
-      "time": 1741981408834.0598,
-      "removeTime": 1743499454734
-    },
-    "21504502-f5d8-4be4-9891-d9a7c8c5b485": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00100.png",
-      "time": 1741981408829.4255,
-      "removeTime": 1743499454734
-    },
-    "09cdecbd-9513-4884-ba44-bf0bbe407fe2": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00120.plist",
-      "time": 1741981095879.2922,
-      "removeTime": 1743499454734
-    },
-    "b42d326d-f0e5-4b03-8736-011f9bf1f5a1": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00120.png",
-      "time": 1741981095877.2837,
-      "removeTime": 1743499454735
-    },
-    "3d60eaad-826b-4d80-acef-ecca916fd079": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00160.plist",
-      "time": 1741981164444.229,
-      "removeTime": 1743499454735
-    },
-    "4f51e25e-4747-4748-b436-b6c24ce92322": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00160.png",
-      "time": 1741981164440.2249,
-      "removeTime": 1743499454735
-    },
-    "378fd2f1-d704-4da7-80b9-3fcfadb62603": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00280.plist",
-      "time": 1741981315118.583,
-      "removeTime": 1743499454735
-    },
-    "e133d2c3-a766-4c6a-a608-9eaeb8db445b": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00280.png",
-      "time": 1741981315116.5881,
-      "removeTime": 1743499454735
-    },
-    "0a8c337a-13de-4664-a78a-caf1e119b232": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00360.plist",
-      "time": 1741981768716.3652,
-      "removeTime": 1743499454735
-    },
-    "238e2ec7-ccf8-4da2-a6ef-67d5badf3a46": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel-00360.png",
-      "time": 1741981768712.3647,
-      "removeTime": 1743499454735
-    },
-    "9aa00def-91d3-4949-8e35-2166b8a714a7": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel_00040.anim",
-      "time": 1742018335398.1582,
-      "removeTime": 1743499454735
-    },
-    "9bf44fd5-5e49-42fd-b675-e90c99587a90": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel_00080.anim",
-      "time": 1741982934542.7866,
-      "removeTime": 1743499454735
-    },
-    "7098e9b6-60b7-4922-a6ca-9ab8b4c706a6": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel_00100.anim",
-      "time": 1740901561860.0784,
-      "removeTime": 1743499454735
-    },
-    "4a9f1b60-d287-4193-94cc-2fe6dc9bc76f": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel_00120.anim",
-      "time": 1741982985141.4824,
-      "removeTime": 1743499454735
-    },
-    "387e250f-8edc-4b5c-bb4a-a150bceb17ff": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel_00160.anim",
-      "time": 1742016878072.933,
-      "removeTime": 1743499454735
-    },
-    "3a9039f1-0ba9-44c7-bed0-38103c325f78": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel_00200.anim",
-      "time": 1740901561860.0784,
-      "removeTime": 1743499454735
-    },
-    "fa8a419c-aeb8-464b-a3a8-f5a69881503f": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel_00240.anim",
-      "time": 1740901561860.0784,
-      "removeTime": 1743499454735
-    },
-    "6cb454b3-baba-4cd5-b893-74c47f4047fa": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\ChrSel\\ChrSel_00440.anim",
-      "time": 1741982237980.3528,
-      "removeTime": 1743499454735
-    },
-    "4e2edd53-c2a6-4694-afa3-1b74caa5112d": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\humen\\hum00000.plist",
-      "time": 1742147358337.6587,
-      "removeTime": 1743499454735
-    },
-    "55c754fa-73e0-4e42-a6c2-92894adbe000": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\anima\\humen\\hum00000.png",
-      "time": 1742147358310.1165,
-      "removeTime": 1743499454736
-    },
-    "f3990b3e-ef29-45b2-81fe-55b364d7eaf0": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.plist",
-      "time": 1741704536829.288,
-      "removeTime": 1743499454736
-    },
-    "cf3e6fc7-2cf1-48d8-afed-bfec65a0c301": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-0.png",
-      "time": 1741704533449.335,
-      "removeTime": 1743499454736
-    },
-    "bd583532-d930-4338-ab30-beb7f333bd02": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.plist",
-      "time": 1741704536833.04,
-      "removeTime": 1743499454736
-    },
-    "f28cd703-59ad-462b-811e-54367606e03a": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-1.png",
-      "time": 1741704534299.4175,
-      "removeTime": 1743499454736
-    },
-    "20b13a88-c5b1-48bc-90ef-5f11613c7bc0": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.plist",
-      "time": 1741704536841.1404,
-      "removeTime": 1743499454736
-    },
-    "e3a0b0e5-7be8-4760-806c-3efc4ce0b8f9": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-2.png",
-      "time": 1741704535040.3816,
-      "removeTime": 1743499454736
-    },
-    "7067cb92-5bc0-4f3d-a155-08060f703363": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.plist",
-      "time": 1741704536851.5085,
-      "removeTime": 1743499454736
-    },
-    "109dc438-822c-41a2-a735-6032a7896398": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\resources\\uipanel\\Prguse\\Prguse-3.png",
-      "time": 1741704536824.5254,
-      "removeTime": 1743499454736
-    },
-    "189441c0-7496-4ae0-9a68-89554f02a26b": {
-      "path": "D:\\Users\\cocos\\MirClent\\assets\\folder",
-      "time": 1743499461992.1953,
-      "removeTime": 1743499489634
-    }
-  }
+  "missing": {}
 }

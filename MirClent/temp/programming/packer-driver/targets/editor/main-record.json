@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 11143.3987,
+      "mTimestamp": 29900.9507,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -145,7 +145,7 @@
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/ui",
+          "value": "cce:/internal/x/cc-fu/rich-text",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -154,12 +154,12 @@
             },
             "end": {
               "line": 11,
-              "column": 40
+              "column": 47
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/particle",
+          "value": "cce:/internal/x/cc-fu/mask",
           "resolved": "__unresolved_11",
           "loc": {
             "start": {
@@ -168,12 +168,12 @@
             },
             "end": {
               "line": 12,
-              "column": 46
+              "column": 42
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "value": "cce:/internal/x/cc-fu/graphics",
           "resolved": "__unresolved_12",
           "loc": {
             "start": {
@@ -182,12 +182,12 @@
             },
             "end": {
               "line": 13,
-              "column": 49
+              "column": 46
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "value": "cce:/internal/x/cc-fu/ui-skew",
           "resolved": "__unresolved_13",
           "loc": {
             "start": {
@@ -196,12 +196,12 @@
             },
             "end": {
               "line": 14,
-              "column": 55
+              "column": 45
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "value": "cce:/internal/x/cc-fu/ui",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
@@ -210,12 +210,12 @@
             },
             "end": {
               "line": 15,
-              "column": 58
+              "column": 40
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/physics-2d-box2d-wasm",
+          "value": "cce:/internal/x/cc-fu/affine-transform",
           "resolved": "__unresolved_15",
           "loc": {
             "start": {
@@ -224,12 +224,12 @@
             },
             "end": {
               "line": 16,
-              "column": 59
+              "column": 54
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "value": "cce:/internal/x/cc-fu/particle",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -238,12 +238,12 @@
             },
             "end": {
               "line": 17,
-              "column": 53
+              "column": 46
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/primitive",
+          "value": "cce:/internal/x/cc-fu/particle-2d",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -252,12 +252,12 @@
             },
             "end": {
               "line": 18,
-              "column": 47
+              "column": 49
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/profiler",
+          "value": "cce:/internal/x/cc-fu/physics-framework",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -266,12 +266,12 @@
             },
             "end": {
               "line": 19,
-              "column": 46
+              "column": 55
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/geometry-renderer",
+          "value": "cce:/internal/x/cc-fu/physics-cannon",
           "resolved": "__unresolved_19",
           "loc": {
             "start": {
@@ -280,12 +280,12 @@
             },
             "end": {
               "line": 20,
-              "column": 55
+              "column": 52
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/audio",
+          "value": "cce:/internal/x/cc-fu/physics-physx",
           "resolved": "__unresolved_20",
           "loc": {
             "start": {
@@ -294,12 +294,12 @@
             },
             "end": {
               "line": 21,
-              "column": 43
+              "column": 51
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/video",
+          "value": "cce:/internal/x/cc-fu/physics-ammo",
           "resolved": "__unresolved_21",
           "loc": {
             "start": {
@@ -308,12 +308,12 @@
             },
             "end": {
               "line": 22,
-              "column": 43
+              "column": 50
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/xr",
+          "value": "cce:/internal/x/cc-fu/physics-builtin",
           "resolved": "__unresolved_22",
           "loc": {
             "start": {
@@ -322,12 +322,12 @@
             },
             "end": {
               "line": 23,
-              "column": 40
+              "column": 53
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/light-probe",
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
           "resolved": "__unresolved_23",
           "loc": {
             "start": {
@@ -336,12 +336,12 @@
             },
             "end": {
               "line": 24,
-              "column": 49
+              "column": 58
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/terrain",
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d-jsb",
           "resolved": "__unresolved_24",
           "loc": {
             "start": {
@@ -350,12 +350,12 @@
             },
             "end": {
               "line": 25,
-              "column": 45
+              "column": 58
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/webview",
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
           "resolved": "__unresolved_25",
           "loc": {
             "start": {
@@ -364,12 +364,12 @@
             },
             "end": {
               "line": 26,
-              "column": 45
+              "column": 54
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/tween",
+          "value": "cce:/internal/x/cc-fu/physics-2d-builtin",
           "resolved": "__unresolved_26",
           "loc": {
             "start": {
@@ -378,12 +378,12 @@
             },
             "end": {
               "line": 27,
-              "column": 43
+              "column": 56
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d-wasm",
           "resolved": "__unresolved_27",
           "loc": {
             "start": {
@@ -392,12 +392,12 @@
             },
             "end": {
               "line": 28,
-              "column": 47
+              "column": 59
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/vendor-google",
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
           "resolved": "__unresolved_28",
           "loc": {
             "start": {
@@ -406,12 +406,12 @@
             },
             "end": {
               "line": 29,
-              "column": 51
+              "column": 53
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/spine",
+          "value": "cce:/internal/x/cc-fu/primitive",
           "resolved": "__unresolved_29",
           "loc": {
             "start": {
@@ -420,12 +420,12 @@
             },
             "end": {
               "line": 30,
-              "column": 43
+              "column": 47
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "value": "cce:/internal/x/cc-fu/profiler",
           "resolved": "__unresolved_30",
           "loc": {
             "start": {
@@ -434,12 +434,12 @@
             },
             "end": {
               "line": 31,
-              "column": 50
+              "column": 46
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "value": "cce:/internal/x/cc-fu/geometry-renderer",
           "resolved": "__unresolved_31",
           "loc": {
             "start": {
@@ -448,12 +448,12 @@
             },
             "end": {
               "line": 32,
-              "column": 53
+              "column": 55
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/custom-pipeline-post-process",
+          "value": "cce:/internal/x/cc-fu/audio",
           "resolved": "__unresolved_32",
           "loc": {
             "start": {
@@ -462,12 +462,12 @@
             },
             "end": {
               "line": 33,
-              "column": 66
+              "column": 43
             }
           }
         },
         {
-          "value": "cce:/internal/x/cc-fu/legacy-pipeline",
+          "value": "cce:/internal/x/cc-fu/video",
           "resolved": "__unresolved_33",
           "loc": {
             "start": {
@@ -476,6 +476,174 @@
             },
             "end": {
               "line": 34,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/xr",
+          "resolved": "__unresolved_34",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 14
+            },
+            "end": {
+              "line": 35,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/light-probe",
+          "resolved": "__unresolved_35",
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 14
+            },
+            "end": {
+              "line": 36,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/terrain",
+          "resolved": "__unresolved_36",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 14
+            },
+            "end": {
+              "line": 37,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_37",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 14
+            },
+            "end": {
+              "line": 38,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_38",
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 14
+            },
+            "end": {
+              "line": 39,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_39",
+          "loc": {
+            "start": {
+              "line": 40,
+              "column": 14
+            },
+            "end": {
+              "line": 40,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/vendor-google",
+          "resolved": "__unresolved_40",
+          "loc": {
+            "start": {
+              "line": 41,
+              "column": 14
+            },
+            "end": {
+              "line": 41,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_41",
+          "loc": {
+            "start": {
+              "line": 42,
+              "column": 14
+            },
+            "end": {
+              "line": 42,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_42",
+          "loc": {
+            "start": {
+              "line": 43,
+              "column": 14
+            },
+            "end": {
+              "line": 43,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "resolved": "__unresolved_43",
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 14
+            },
+            "end": {
+              "line": 44,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline-post-process",
+          "resolved": "__unresolved_44",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 14
+            },
+            "end": {
+              "line": 45,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/legacy-pipeline",
+          "resolved": "__unresolved_45",
+          "loc": {
+            "start": {
+              "line": 46,
+              "column": 14
+            },
+            "end": {
+              "line": 46,
               "column": 53
             }
           }
@@ -556,7 +724,42 @@
         {
           "resolved": {
             "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/rich-text"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/mask"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/graphics"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui-skew"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
             "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/affine-transform"
           },
           "messages": []
         },
@@ -584,7 +787,56 @@
         {
           "resolved": {
             "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-cannon"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-physx"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-ammo"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-builtin"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
             "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d-jsb"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-builtin"
           },
           "messages": []
         },
@@ -724,11 +976,11 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 13814.3571,
+      "mTimestamp": 2253314.1054,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
-          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts",
+          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts",
           "resolved": "__unresolved_0",
           "loc": {
             "start": {
@@ -742,7 +994,7 @@
           }
         },
         {
-          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts",
+          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -756,7 +1008,7 @@
           }
         },
         {
-          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts",
+          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -770,7 +1022,7 @@
           }
         },
         {
-          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
+          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -784,7 +1036,7 @@
           }
         },
         {
-          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
+          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -798,7 +1050,7 @@
           }
         },
         {
-          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "value": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -812,7 +1064,7 @@
           }
         },
         {
-          "value": "file:///D:/Users/gitPro/MirClent/assets/script/MoveSprite.ts",
+          "value": "file:///D:/Users/gitPro/MirClent/assets/script/uipanel/CreatePanel.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -821,7 +1073,21 @@
             },
             "end": {
               "line": 5,
-              "column": 1040
+              "column": 1049
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Users/gitPro/MirClent/assets/script/uipanel/MoveSprite.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1065
+            },
+            "end": {
+              "line": 5,
+              "column": 1135
             }
           }
         }
@@ -831,60 +1097,67 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/Users/gitPro/MirClent/assets/script/MoveSprite.ts"
+            "url": "file:///D:/Users/gitPro/MirClent/assets/script/uipanel/CreatePanel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Users/gitPro/MirClent/assets/script/uipanel/MoveSprite.ts"
           },
           "messages": []
         }
       ]
     },
-    "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts": {
+    "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts": {
       "mTimestamp": {
-        "mtime": 1740901562530.4883,
+        "mtime": 1743534794425.3906,
         "uuid": "11f3130e-c08c-47bb-a209-71d114594e6d"
       },
-      "chunkId": "aa88e0f38c870b713f04f394788ea7bbdfcdfbf8",
+      "chunkId": "3ede5499c46158e937ae4bb5e1ce68e5605abf8c",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1005,32 +1278,32 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
           },
           "messages": []
         }
       ]
     },
-    "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts": {
+    "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts": {
       "mTimestamp": {
-        "mtime": 1740901562551.1301,
+        "mtime": 1743534794443.9197,
         "uuid": "6f94083c-fc92-438b-a15b-a20ec61666c7"
       },
-      "chunkId": "0ea3aa75a36919d0b384f089d58e2c9d9a04a117",
+      "chunkId": "59ed84aad0a201d7197d4be7224e3ddd135cfc5e",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1116,7 +1389,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
           },
           "messages": []
         },
@@ -1129,12 +1402,12 @@
         }
       ]
     },
-    "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": {
+    "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": {
       "mTimestamp": {
-        "mtime": 1740901562553.1392,
+        "mtime": 1743534794447.9207,
         "uuid": "de1c2107-70c8-4021-8459-6399f24d01c6"
       },
-      "chunkId": "63840ab0c0f7af541b6cc7f85344b1c2b81e22b7",
+      "chunkId": "d7aa4bb67b8c976d2dd9d7c28a88393477d67dc3",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1227,18 +1500,18 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
           },
           "messages": []
         }
       ]
     },
-    "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": {
+    "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": {
       "mTimestamp": {
-        "mtime": 1740901562559.7703,
+        "mtime": 1743534794455.9177,
         "uuid": "cbf30902-517f-40dc-af90-a550bac27cf1"
       },
-      "chunkId": "054801b00a8e70630ae01b0fda678c6676f17a2a",
+      "chunkId": "eda2ce2a755f9284c05ab9c8977ffe7bf77080ff",
       "imports": [
         {
           "value": "cc"
@@ -1285,12 +1558,12 @@
         }
       ]
     },
-    "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": {
+    "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": {
       "mTimestamp": {
-        "mtime": 1740901562573.9453,
+        "mtime": 1743534794459.918,
         "uuid": "ff9b0199-ce04-4cfe-86cc-6c719f08d6e4"
       },
-      "chunkId": "17b4def6f342ddb84637ba1c816ba421d558bf11",
+      "chunkId": "7fb8018cab5c7506a547170d7b7e4b98c20b4423",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -1383,18 +1656,18 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+            "url": "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
           },
           "messages": []
         }
       ]
     },
-    "file:///D:/ProgramData/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+    "file:///D:/ProgramData/cocos/editors/Creator/3.8.6/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
       "mTimestamp": {
-        "mtime": 1740901563313.441,
+        "mtime": 1743534795076.122,
         "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
       },
-      "chunkId": "aa154372f68ade5e5ac26b0cdce835126dd24d14",
+      "chunkId": "3f5a37f7dc25a876ad5b02c20b6be5a487e08459",
       "imports": [
         {
           "value": "cc"
@@ -1442,19 +1715,23 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1743529579560,
+      "mTimestamp": 1743564519398,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
       "resolutions": []
     },
-    "file:///D:/Users/cocos/MirClent/assets/script/MoveSprite.ts": {
+    "file:///D:/Users/gitPro/MirClent/assets/script/uipanel/CreatePanel.ts": {
       "mTimestamp": {
-        "mtime": 1743501507719.2288,
-        "uuid": "94d35054-3107-4b6d-866f-842c155eeb7d"
+        "mtime": 1743566772360.223,
+        "uuid": "1b048657-4ac2-4878-8248-a0afc226117c"
       },
-      "chunkId": "de54be5f81d689178849f24863f08057ae5fa059",
+      "chunkId": "0ec78921055e034debe6d5c6dbf029fded09ee00",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -1466,11 +1743,25 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 113
+              "column": 114
             },
             "end": {
               "line": 1,
-              "column": 117
+              "column": 118
+            }
+          }
+        },
+        {
+          "value": "./MoveSprite",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 37
             }
           }
         }
@@ -1480,7 +1771,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -1495,17 +1786,31 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Users/gitPro/MirClent/assets/script/uipanel/MoveSprite.ts"
           },
           "messages": []
         }
       ]
     },
-    "file:///D:/Users/gitPro/MirClent/assets/script/MoveSprite.ts": {
+    "file:///D:/Users/gitPro/MirClent/assets/script/uipanel/MoveSprite.ts": {
       "mTimestamp": {
-        "mtime": 1743520353376.8904,
-        "uuid": "94d35054-3107-4b6d-866f-842c155eeb7d"
+        "mtime": 1743562906220.1816,
+        "uuid": "0779a822-f44c-4563-ae30-1a5cad1d532c"
       },
-      "chunkId": "cb0507a7b10727e5e86b0b7bbecacbe54235d7fe",
+      "chunkId": "bf98893e0555c5b40d47843061714e13227523bb",
       "imports": [
         {
           "value": "cc"

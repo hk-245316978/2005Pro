@@ -1,11 +1,17 @@
-2025-4-2 01:46:18 - log: Load engine in D:\ProgramData\cocos\editors\Creator\3.8.5\resources\resources\3d\engine
-2025-4-2 01:46:19 - log: Register native engine in D:\ProgramData\cocos\editors\Creator\3.8.5\resources\resources\3d\engine\native
-2025-4-2 01:46:20 - log: Request namespace: device-list
-2025-4-2 01:46:33 - log: [Scene] meshopt wasm decoder initialized
-2025-4-2 01:46:33 - log: [Scene] [bullet]:bullet wasm lib loaded.
-2025-4-2 01:46:33 - log: [Scene] [box2d]:box2d wasm lib loaded.
-2025-4-2 01:46:33 - log: [Scene] [PHYSICS]: using builtin.
-2025-4-2 01:46:33 - log: [Scene] Cocos Creator v3.8.5
-2025-4-2 01:46:33 - log: [Scene] Using custom pipeline: Builtin
-2025-4-2 01:46:33 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
-2025-4-2 01:46:33 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2025-4-2 11:28:38 - log: Load engine in D:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine
+2025-4-2 11:28:39 - log: Register native engine in D:\ProgramData\cocos\editors\Creator\3.8.6\resources\resources\3d\engine\native
+2025-4-2 11:28:40 - log: Request namespace: device-list
+2025-4-2 11:29:17 - log: [Scene] meshopt wasm decoder initialized
+2025-4-2 11:29:17 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2025-4-2 11:29:17 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2025-4-2 11:29:17 - log: [Scene] [PHYSICS]: using builtin.
+2025-4-2 11:29:17 - log: [Scene] Cocos Creator v3.8.6
+2025-4-2 11:29:17 - log: [Scene] Using custom pipeline: Builtin
+2025-4-2 11:29:17 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+2025-4-2 11:29:17 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2025-4-2 11:40:55 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
+2025-4-2 11:40:55 - warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-2.plist@35f07Warn: [Assets] resizeThumbnail failed for db://assets/resources/uipanel/Prguse/Prguse-2.plist@35f07
+    at console.warn (D:\ProgramData\cocos\editors\Creator\3.8.6\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\ProgramData\cocos\editors\Creator\3.8.6\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at AssetHandlerManager.generateThumbnail (D:\ProgramData\cocos\editors\Creator\3.8.6\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:10544)
+    at Ipc.<anonymous> (D:\ProgramData\cocos\editors\Creator\3.8.6\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)

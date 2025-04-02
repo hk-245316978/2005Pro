@@ -42,6 +42,7 @@
           "count": 1,
           "defines": [],
           "stageFlags": 16,
+          "sampleType": 0,
           "binding": 3
         }
       ],
@@ -237,6 +238,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 3
             }
           ],
@@ -298,6 +300,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 2
             }
           ],
@@ -458,6 +461,7 @@
           "count": 1,
           "defines": [],
           "stageFlags": 16,
+          "sampleType": 0,
           "binding": 3
         }
       ],
@@ -653,6 +657,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 3
             }
           ],
@@ -714,6 +719,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 2
             }
           ],

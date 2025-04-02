@@ -1,11 +1,21 @@
 {
-  "__version__": "1.0.2",
+  "__version__": "1.0.3",
   "builder": {},
   "gizmos-infos": {
-    "is2D": true,
+    "is2D": false,
     "is3DIcon": false,
     "iconSize": 2,
     "gridVisible": true,
+    "originAxis2D": {
+      "x_visible": true,
+      "y_visible": true,
+      "z_visible": false
+    },
+    "originAxis3D": {
+      "x_visible": true,
+      "y_visible": false,
+      "z_visible": true
+    },
     "gridColor": [
       166,
       166,
@@ -47,34 +57,34 @@
     }
   },
   "camera-infos": {
-    "27b01dab-863f-4a20-b191-901443c1fad9": {
+    "4fcb84db-9d66-47cf-aab0-6d20aa4bfab6": {
       "position": {
-        "x": 543.8662442006062,
-        "y": 494.69566028759664,
-        "z": 5000
+        "x": -1637.4101193020406,
+        "y": 1479.3014873331488,
+        "z": 2629.7417980267037
       },
       "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
+        "x": -0.14944036015198822,
+        "y": -0.4001928159025982,
+        "z": -0.06632256443558603,
+        "w": 0.9017286766554253
       },
       "viewCenter": {
-        "x": 0,
-        "y": 0,
-        "z": 0
+        "x": 674.8151668890196,
+        "y": 416.61604597389737,
+        "z": 537.8377080951211
       },
       "contentRect": {
-        "x": -1175.8992929949563,
-        "y": -585.0807934096172,
-        "width": 1048,
-        "height": 658
+        "x": -300.06993304826744,
+        "y": -289.2839655614678,
+        "width": 584,
+        "height": 444
       },
-      "scale": 0.30469269715364317
+      "scale": 0.3386611964857077
     }
   },
   "camera-uuids": [
-    "27b01dab-863f-4a20-b191-901443c1fad9"
+    "4fcb84db-9d66-47cf-aab0-6d20aa4bfab6"
   ],
   "camera": {
     "color": [

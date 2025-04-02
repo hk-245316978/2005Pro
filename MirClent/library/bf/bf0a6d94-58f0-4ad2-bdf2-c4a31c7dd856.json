@@ -123,6 +123,7 @@
           "count": 1,
           "defines": [],
           "stageFlags": 16,
+          "sampleType": 0,
           "binding": 8
         }
       ],
@@ -370,6 +371,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 8
             }
           ],
@@ -588,6 +590,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 2
             },
             {
@@ -596,6 +599,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 3
             },
             {
@@ -604,6 +608,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 4
             },
             {
@@ -612,6 +617,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 5
             },
             {
@@ -620,6 +626,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 6
             },
             {
@@ -628,6 +635,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 7
             },
             {
@@ -636,6 +644,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 9
             }
           ],
@@ -1194,6 +1203,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 1
             },
             {
@@ -1202,6 +1212,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 2
             },
             {
@@ -1210,6 +1221,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 3
             },
             {
@@ -1218,6 +1230,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 4
             },
             {
@@ -1226,6 +1239,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 5
             }
           ],
@@ -1775,6 +1789,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 1
             },
             {
@@ -1783,6 +1798,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 2
             },
             {
@@ -1791,6 +1807,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 3
             },
             {
@@ -1799,6 +1816,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 4
             },
             {
@@ -1807,6 +1825,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 5
             }
           ],
@@ -2356,6 +2375,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 1
             },
             {
@@ -2364,6 +2384,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 2
             },
             {
@@ -2372,6 +2393,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 3
             },
             {
@@ -2380,6 +2402,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 4
             },
             {
@@ -2388,6 +2411,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 5
             }
           ],
@@ -2937,6 +2961,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 1
             },
             {
@@ -2945,6 +2970,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 2
             },
             {
@@ -2953,6 +2979,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 3
             },
             {
@@ -2961,6 +2988,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 4
             },
             {
@@ -2969,6 +2997,7 @@
               "count": 1,
               "defines": [],
               "stageFlags": 16,
+              "sampleType": 0,
               "binding": 5
             }
           ],
