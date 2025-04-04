@@ -39,22 +39,12 @@ public class LoadDll : MonoBehaviour
         string packageName = "DefaultPackage";
         var package = YooAssets.TryGetPackage(packageName) ?? YooAssets.CreatePackage(packageName);
         YooAssets.SetDefaultPackage(package);
+        PlayMode = EPlayMode.HostPlayMode;
         if (PlayMode == EPlayMode.EditorSimulateMode)
         {
             //编辑器模拟模式
-            //var initParameters = new EditorSimulateModeParameters { SimulateManifestFilePath = EditorSimulateModeHelper.SimulateBuild(EDefaultBuildPipeline.BuiltinBuildPipeline, "DefaultPackage") };
-            var buildResult = EditorSimulateModeHelper.SimulateBuild("DefaultPackage");
-            var packageRoot = buildResult.PackageRootDirectory;
-            var editorFileSystemParams = FileSystemParameters.CreateDefaultEditorFileSystemParameters(packageRoot);
-            var initParameters = new EditorSimulateModeParameters();
-            initParameters.EditorFileSystemParameters = editorFileSystemParams;
-            var initOperation = package.InitializeAsync(initParameters);
-            yield return initOperation;
-
-            if (initOperation.Status == EOperationStatus.Succeed)
-                Debug.Log("资源包初始化成功！");
-            else
-                Debug.LogError($"资源包初始化失败：{initOperation.Error}");
+            var initParameters = new EditorSimulateModeParameters { SimulateManifestFilePath = EditorSimulateModeHelper.SimulateBuild(EDefaultBuildPipeline.BuiltinBuildPipeline, "DefaultPackage") };
+            yield return package.InitializeAsync(initParameters);
         }
         else if (PlayMode == EPlayMode.HostPlayMode)
         {
@@ -62,18 +52,11 @@ public class LoadDll : MonoBehaviour
             string defaultHostServer = GetHostServerURL();
             string fallbackHostServer = GetHostServerURL();
             Debug.Log(defaultHostServer);
-            //var initParameters = new HostPlayModeParameters();
-            //initParameters.BuildinQueryServices = new GameQueryServices();
+            var initParameters = new HostPlayModeParameters();
+            initParameters.BuildinQueryServices = new GameQueryServices();
             // initParameters.DecryptionServices = new GameDecryptionServices();
             // initParameters.DeliveryQueryServices = new DefaultDeliveryQueryServices();
-            //initParameters.RemoteServices = new RemoteServices(defaultHostServer, fallbackHostServer);
-            IRemoteServices remoteServices = new RemoteServices(defaultHostServer, fallbackHostServer);
-            var cacheFileSystemParams = FileSystemParameters.CreateDefaultCacheFileSystemParameters(remoteServices);
-            var buildinFileSystemParams = FileSystemParameters.CreateDefaultBuildinFileSystemParameters();
-
-            var initParameters = new HostPlayModeParameters();
-            initParameters.BuildinFileSystemParameters = buildinFileSystemParams;
-            initParameters.CacheFileSystemParameters = cacheFileSystemParams;
+            initParameters.RemoteServices = new RemoteServices(defaultHostServer, fallbackHostServer);
             var initOperation = package.InitializeAsync(initParameters);
             yield return initOperation;
 
@@ -89,7 +72,7 @@ public class LoadDll : MonoBehaviour
 
 
         //2.获取资源版本
-        var operation = package.RequestPackageVersionAsync();
+        var operation = package.UpdatePackageVersionAsync();
         yield return operation;
 
         if (operation.Status != EOperationStatus.Succeed)
@@ -167,18 +150,18 @@ public class LoadDll : MonoBehaviour
     /// <summary>
     /// 资源文件查询服务类
     /// </summary>
-//    internal class GameQueryServices : IBuildinQueryServices
-//    {
-//        public bool Query(string packageName, string fileName, string fileCRC)
-//        {
-//#if UNITY_IPHONE
-//            throw new Exception("Ios平台需要内置资源");
-//            return false;
-//#else
-//            return false;
-//#endif
-//        }
-//    }
+    internal class GameQueryServices : IBuildinQueryServices
+    {
+        public bool Query(string packageName, string fileName, string fileCRC)
+        {
+#if UNITY_IPHONE
+            throw new Exception("Ios平台需要内置资源");
+            return false;
+#else
+            return false;
+#endif
+        }
+    }
 
     #endregion
 
@@ -202,10 +185,10 @@ public class LoadDll : MonoBehaviour
         long totalDownloadBytes = downloader.TotalDownloadBytes;
 
         //注册回调方法
-        downloader.DownloadFinishCallback = OnDownloadFinishFunction; //当下载器结束（无论成功或失败）
-        downloader.DownloadErrorCallback = OnDownloadErrorFunction; //当下载器发生错误
-        downloader.DownloadUpdateCallback = OnDownloadUpdateFunction; //当下载进度发生变化
-        downloader.DownloadFileBeginCallback = OnDownloadFileBeginFunction; //当开始下载某个文件
+        downloader.OnDownloadErrorCallback = OnDownloadErrorFunction;
+        downloader.OnDownloadProgressCallback = OnDownloadProgressUpdateFunction;
+        downloader.OnDownloadOverCallback = OnDownloadOverFunction;
+        downloader.OnStartDownloadFileCallback = OnStartDownloadFileFunction;
 
         //开启下载
         downloader.BeginDownload();
@@ -224,24 +207,23 @@ public class LoadDll : MonoBehaviour
         }
     }
 
-
     /// <summary>
     /// 开始下载
     /// </summary>
     /// <param name="fileName"></param>
     /// <param name="sizeBytes"></param>
-    private void OnDownloadFileBeginFunction(DownloadFileData data)
+    private void OnStartDownloadFileFunction(string fileName, long sizeBytes)
     {
-        Debug.Log(string.Format("开始下载：文件名：{0}，文件大小：{1}", data.FileName, data.FileSize));
+        Debug.Log(string.Format("开始下载：文件名：{0}，文件大小：{1}", fileName, sizeBytes));
     }
 
     /// <summary>
     /// 下载完成
     /// </summary>
     /// <param name="isSucceed"></param>
-    private void OnDownloadFinishFunction(DownloaderFinishData data)
+    private void OnDownloadOverFunction(bool isSucceed)
     {
-        Debug.Log("下载" + (data.Succeed ? "成功" : "失败"));
+        Debug.Log("下载" + (isSucceed ? "成功" : "失败"));
     }
 
     /// <summary>
@@ -251,9 +233,9 @@ public class LoadDll : MonoBehaviour
     /// <param name="currentDownloadCount"></param>
     /// <param name="totalDownloadBytes"></param>
     /// <param name="currentDownloadBytes"></param>
-    private void OnDownloadUpdateFunction(DownloadUpdateData data)
+    private void OnDownloadProgressUpdateFunction(int totalDownloadCount, int currentDownloadCount, long totalDownloadBytes, long currentDownloadBytes)
     {
-        Debug.Log(string.Format("文件总数：{0}，已下载文件数：{1}，下载总大小：{2}，已下载大小{3}", data.TotalDownloadCount, data.CurrentDownloadCount, data.TotalDownloadBytes, data.CurrentDownloadBytes));
+        Debug.Log(string.Format("文件总数：{0}，已下载文件数：{1}，下载总大小：{2}，已下载大小{3}", totalDownloadCount, currentDownloadCount, totalDownloadBytes, currentDownloadBytes));
     }
 
     /// <summary>
@@ -261,9 +243,9 @@ public class LoadDll : MonoBehaviour
     /// </summary>
     /// <param name="fileName"></param>
     /// <param name="error"></param>
-    private void OnDownloadErrorFunction(DownloadErrorData data)
+    private void OnDownloadErrorFunction(string fileName, string error)
     {
-        Debug.Log(string.Format("下载出错：文件名：{0}，错误信息：{1}", data.FileName, data.ErrorInfo));
+        Debug.Log(string.Format("下载出错：文件名：{0}，错误信息：{1}", fileName, error));
     }
 
     #endregion

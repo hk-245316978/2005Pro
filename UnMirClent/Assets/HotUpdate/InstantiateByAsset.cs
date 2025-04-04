@@ -1,10 +1,9 @@
-using System.Collections;
 using UnityEngine;
 
-public class Hello
+public class InstantiateByAsset : MonoBehaviour
 {
-    public static void Run()
+    void Start()
     {
-        Debug.Log("Hello, HybridCLR");
+        Debug.Log("热更新之后");
     }
 }

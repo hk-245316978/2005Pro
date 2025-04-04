@@ -2,6 +2,7 @@
 <linker>
   <assembly fullname="UnityEngine.CoreModule">
     <type fullname="UnityEngine.Debug" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
   </assembly>
   <assembly fullname="netstandard">
     <type fullname="System.Array" preserve="all" />
